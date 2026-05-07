@@ -1,0 +1,35 @@
+{
+  "model_type": "lightgbm",
+  "target": "total_pcs",
+  "feature_cols": [
+    "month_num",
+    "quarter",
+    "month_sin",
+    "month_cos",
+    "is_peak_season",
+    "is_black_friday_month",
+    "is_holiday_season",
+    "lag_1",
+    "lag_2",
+    "lag_3",
+    "roll_mean_3",
+    "roll_std_3",
+    "roll_mean_6",
+    "roll_std_6",
+    "roll_mean_12",
+    "roll_std_12",
+    "avg_org_price_lag1",
+    "avg_sale_price_lag1",
+    "discount_rate_lag1",
+    "is_deep_discount_lag1",
+    "price_12m_avg_lag1",
+    "price_vs_12m_avg_lag1",
+    "n_styles_lag1",
+    "n_colors_lag1"
+  ],
+  "high_volume_threshold": 10,
+  "training_window": {
+    "start": "2024-04",
+    "end": "2025-12"
+  }
+}

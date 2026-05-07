@@ -1,0 +1,15 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Original archives (we have the extracted folders)
+*.tar.gz
+
+# Env files (never commit secrets)
+.env.local
+.env.*.local
