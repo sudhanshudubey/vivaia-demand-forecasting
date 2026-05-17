@@ -21,7 +21,7 @@ npm install
 npm run dev
 ```
 
-Open [http://](https://vivaia-demand-forecasting.vercel.app)
+Open [http://vivaia-demand-forecasting.vercel.app]
 
 ## Model design
 
